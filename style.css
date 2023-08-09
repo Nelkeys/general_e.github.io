@@ -1,0 +1,137 @@
+root::{
+    --primary(#2e3440)
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:linear-gradient(to right, #d8dee9, #e5e9f0,
+          #ecefff4);
+    animation:backgroundAnimation 5s
+     infinite ease-in-out;
+    font-family:serif;
+    transition:ease-in-out;
+}
+
+@Keyframes backgroundAnimation{
+    0%{
+        background-color:#d8dee9;
+    }
+    54%{
+        background-color:#e5e9f0;
+    }
+    75%{
+        babackground-color:#ecefff4;
+    }
+    100%{
+        background-color:#e5e9f0;
+    }
+}
+
+.header{
+    margin:4rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    transition:.3s ease-in-out;
+}
+.logo{
+    font-family:cursive;
+    font-size:3rem;
+    color:#2e3440;
+    text-decoration:none;
+}
+.contact{
+    color:#2e3440;
+}
+.navbar ul{
+    margin:4rem;
+    margin-left:12rem;
+    margin-right:12rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    transition:.5s ease-in-out;
+}
+.navbar ul li{
+    list-style:none;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color:#2e3440;
+}
+.navbar ul li .active{
+    text-decoration:underline;
+}
+.home-container{
+    margin:3rem;
+    margin-top:10rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.paragraph{
+    margin-top:1rem;
+    width:25rem;
+    height:20rem;
+}
+.name-par{
+    margin-top:12rem;
+    transition:2s ease-in-out;
+}
+.name{
+    font-size:2rem;
+    font-family:cursive;
+    
+}
+.profile img{
+    height:25rem;
+    width:22rem;
+    border-radius:15rem;
+    border:5px solid #2e3440;
+    transition:1.5s ease-in-out;
+}
+.contact-div{
+    margin-bottom:0;
+    margin:4.5rem;
+}
+.contact-bottom{
+    font-size:4rem;
+    font-family:cursive;
+}
+.contact-div p{
+    margin-top:2rem;
+    font-size:1.1rem;
+    margin-left:.5rem;
+}
+.e-mail{
+    padding:3rem;
+    height:4rem;
+    width:20rem;
+    border:1px solid #3e3440;
+    border-radius:1rem;
+    transition:.9s ease-in-out;
+    background: transparent;
+}
+.btn{
+    margin:4.5rem;
+    margin-top:-2rem;
+}
+.btn a{
+    background:#3e3440;
+    padding:1rem;
+    padding-right:1.5rem;
+    padding-left:1.5rem;
+    border-radius:1rem;
+    text-decoration:none;
+    color:#e5e9f0;
+    transition:1s ease-in-out;
+}
+.btn a:hover{
+    color:#3e3440;
+    background:#e5e9f0;
+}
+
+
+
